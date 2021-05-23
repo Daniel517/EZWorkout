@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		FB6BA702265ADEB70026C633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA701265ADEB70026C633 /* AppDelegate.swift */; };
 		FB6BA704265ADEB70026C633 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA703265ADEB70026C633 /* SceneDelegate.swift */; };
-		FB6BA706265ADEB70026C633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA705265ADEB70026C633 /* ViewController.swift */; };
-		FB6BA709265ADEB70026C633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6BA707265ADEB70026C633 /* Main.storyboard */; };
 		FB6BA70C265ADEB70026C633 /* EZWorkout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA70A265ADEB70026C633 /* EZWorkout.xcdatamodeld */; };
 		FB6BA70E265ADEB80026C633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6BA70D265ADEB80026C633 /* Assets.xcassets */; };
 		FB6BA711265ADEB80026C633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6BA70F265ADEB80026C633 /* LaunchScreen.storyboard */; };
 		FB6BA71C265ADEB80026C633 /* EZWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA71B265ADEB80026C633 /* EZWorkoutTests.swift */; };
 		FB6BA727265ADEB80026C633 /* EZWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA726265ADEB80026C633 /* EZWorkoutUITests.swift */; };
+		FB6BA744265AE7CD0026C633 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA743265AE7CD0026C633 /* BaseViewController.swift */; };
+		FB6BA749265AE7F40026C633 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA748265AE7F40026C633 /* BaseView.swift */; };
+		FB6BA74E265AE98C0026C633 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA74D265AE98C0026C633 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		FB6BA6FE265ADEB70026C633 /* EZWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6BA701265ADEB70026C633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6BA703265ADEB70026C633 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB6BA705265ADEB70026C633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB6BA708265ADEB70026C633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB6BA70B265ADEB70026C633 /* EZWorkout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZWorkout.xcdatamodel; sourceTree = "<group>"; };
 		FB6BA70D265ADEB80026C633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6BA710265ADEB80026C633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		FB6BA722265ADEB80026C633 /* EZWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6BA726265ADEB80026C633 /* EZWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZWorkoutUITests.swift; sourceTree = "<group>"; };
 		FB6BA728265ADEB80026C633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6BA743265AE7CD0026C633 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FB6BA748265AE7F40026C633 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		FB6BA74D265AE98C0026C633 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,6 @@
 				FB6BA73B265AE2D70026C633 /* Controllers */,
 				FB6BA701265ADEB70026C633 /* AppDelegate.swift */,
 				FB6BA703265ADEB70026C633 /* SceneDelegate.swift */,
-				FB6BA705265ADEB70026C633 /* ViewController.swift */,
-				FB6BA707265ADEB70026C633 /* Main.storyboard */,
 				FB6BA70D265ADEB80026C633 /* Assets.xcassets */,
 				FB6BA70F265ADEB80026C633 /* LaunchScreen.storyboard */,
 				FB6BA712265ADEB80026C633 /* Info.plist */,
@@ -144,6 +144,8 @@
 		FB6BA73B265AE2D70026C633 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FB6BA743265AE7CD0026C633 /* BaseViewController.swift */,
+				FB6BA74D265AE98C0026C633 /* HomeVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +153,7 @@
 		FB6BA73C265AE2ED0026C633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB6BA748265AE7F40026C633 /* BaseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,7 +263,6 @@
 			files = (
 				FB6BA711265ADEB80026C633 /* LaunchScreen.storyboard in Resources */,
 				FB6BA70E265ADEB80026C633 /* Assets.xcassets in Resources */,
-				FB6BA709265ADEB70026C633 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB6BA70C265ADEB70026C633 /* EZWorkout.xcdatamodeld in Sources */,
-				FB6BA706265ADEB70026C633 /* ViewController.swift in Sources */,
+				FB6BA744265AE7CD0026C633 /* BaseViewController.swift in Sources */,
+				FB6BA749265AE7F40026C633 /* BaseView.swift in Sources */,
+				FB6BA74E265AE98C0026C633 /* HomeVC.swift in Sources */,
 				FB6BA702265ADEB70026C633 /* AppDelegate.swift in Sources */,
 				FB6BA704265ADEB70026C633 /* SceneDelegate.swift in Sources */,
 			);
@@ -324,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB6BA707265ADEB70026C633 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB6BA708265ADEB70026C633 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB6BA70F265ADEB80026C633 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
