@@ -101,6 +101,9 @@
 		FB6BA700265ADEB70026C633 /* EZWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				FB6BA73A265AE2200026C633 /* Models */,
+				FB6BA73C265AE2ED0026C633 /* Views */,
+				FB6BA73B265AE2D70026C633 /* Controllers */,
 				FB6BA701265ADEB70026C633 /* AppDelegate.swift */,
 				FB6BA703265ADEB70026C633 /* SceneDelegate.swift */,
 				FB6BA705265ADEB70026C633 /* ViewController.swift */,
@@ -108,7 +111,6 @@
 				FB6BA70D265ADEB80026C633 /* Assets.xcassets */,
 				FB6BA70F265ADEB80026C633 /* LaunchScreen.storyboard */,
 				FB6BA712265ADEB80026C633 /* Info.plist */,
-				FB6BA70A265ADEB70026C633 /* EZWorkout.xcdatamodeld */,
 			);
 			path = EZWorkout;
 			sourceTree = "<group>";
@@ -129,6 +131,28 @@
 				FB6BA728265ADEB80026C633 /* Info.plist */,
 			);
 			path = EZWorkoutUITests;
+			sourceTree = "<group>";
+		};
+		FB6BA73A265AE2200026C633 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB6BA70A265ADEB70026C633 /* EZWorkout.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB6BA73B265AE2D70026C633 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB6BA73C265AE2ED0026C633 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
