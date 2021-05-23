@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB15ED4E265AFDF0006EA7D7 /* DayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15ED4D265AFDF0006EA7D7 /* DayVC.swift */; };
+		FB15ED54265AFE55006EA7D7 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15ED53265AFE55006EA7D7 /* DayView.swift */; };
+		FB15ED60265B0734006EA7D7 /* DateNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15ED5F265B0734006EA7D7 /* DateNavigator.swift */; };
 		FB6BA702265ADEB70026C633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA701265ADEB70026C633 /* AppDelegate.swift */; };
 		FB6BA704265ADEB70026C633 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA703265ADEB70026C633 /* SceneDelegate.swift */; };
 		FB6BA70C265ADEB70026C633 /* EZWorkout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB6BA70A265ADEB70026C633 /* EZWorkout.xcdatamodeld */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB15ED4D265AFDF0006EA7D7 /* DayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayVC.swift; sourceTree = "<group>"; };
+		FB15ED53265AFE55006EA7D7 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		FB15ED5F265B0734006EA7D7 /* DateNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateNavigator.swift; sourceTree = "<group>"; };
 		FB6BA6FE265ADEB70026C633 /* EZWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6BA701265ADEB70026C633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6BA703265ADEB70026C633 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB15ED52265AFE43006EA7D7 /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				FB15ED53265AFE55006EA7D7 /* DayView.swift */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		FB15ED58265AFF0B006EA7D7 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				FB15ED4D265AFDF0006EA7D7 /* DayVC.swift */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		FB15ED5E265B06EB006EA7D7 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FB15ED5F265B0734006EA7D7 /* DateNavigator.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
 		FB6BA6F5265ADEB70026C633 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +133,7 @@
 		FB6BA700265ADEB70026C633 /* EZWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				FB15ED5E265B06EB006EA7D7 /* UIElements */,
 				FB6BA73A265AE2200026C633 /* Models */,
 				FB6BA73C265AE2ED0026C633 /* Views */,
 				FB6BA73B265AE2D70026C633 /* Controllers */,
@@ -144,6 +175,7 @@
 		FB6BA73B265AE2D70026C633 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FB15ED58265AFF0B006EA7D7 /* Day */,
 				FB6BA743265AE7CD0026C633 /* BaseViewController.swift */,
 				FB6BA74D265AE98C0026C633 /* HomeVC.swift */,
 			);
@@ -153,6 +185,7 @@
 		FB6BA73C265AE2ED0026C633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB15ED52265AFE43006EA7D7 /* DayView */,
 				FB6BA748265AE7F40026C633 /* BaseView.swift */,
 			);
 			path = Views;
@@ -287,12 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB15ED60265B0734006EA7D7 /* DateNavigator.swift in Sources */,
 				FB6BA70C265ADEB70026C633 /* EZWorkout.xcdatamodeld in Sources */,
+				FB15ED54265AFE55006EA7D7 /* DayView.swift in Sources */,
 				FB6BA744265AE7CD0026C633 /* BaseViewController.swift in Sources */,
 				FB6BA749265AE7F40026C633 /* BaseView.swift in Sources */,
 				FB6BA74E265AE98C0026C633 /* HomeVC.swift in Sources */,
 				FB6BA702265ADEB70026C633 /* AppDelegate.swift in Sources */,
 				FB6BA704265ADEB70026C633 /* SceneDelegate.swift in Sources */,
+				FB15ED4E265AFDF0006EA7D7 /* DayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
